@@ -1,0 +1,17 @@
+{
+  "name": "web_annonces_njs",
+  "version": "0.0.1",
+  "description": "web app for testing nodejs knowledge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+   "expect.js":"0.2.0",
+   "mocha":"1.17.0",
+   "spooky":"0.2.4",
+   "superagent":"0.16.0"
+},
+  "author": "idumneanu",
+  "license": "BSD-2-Clause"
+}

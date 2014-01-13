@@ -1,0 +1,86 @@
+#add-item .info-block h2 {
+    color: #bd2a34;
+}
+
+#add-item .info-block {
+    display: inline-block;
+    vertical-align: top;
+    height: 240px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#add-item .info-block label {
+    color: #be2834;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+#add-item .info-block input, #add-item .info-block label, #add-item .info-block select {
+    display: block;
+    width: 100%;
+}
+
+#add-item .info-block input[type='radio'] {
+    display: inline-block;
+    width: auto;
+}
+
+#add-item-submit {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#add-item-submit input {
+    width: 163px;
+    height: 42px;
+    background: url('../img/valider.png') no-repeat;
+    border: none;
+    margin-bottom: -20px;
+    box-shadow: 0px 2px 5px #888;
+    cursor: pointer;
+}
+
+#add-item-block-1, #add-item-block-2, #add-item-block-3, #add-item-block-5 {
+    width: 22%;
+}
+
+#add-item-block-2 {
+    border-left: solid 1px #ecabaf;
+    border-right: solid 1px #ecabaf;
+}
+
+#add-item-block-4 {
+    width: 56%;
+    background-color: #c02835;
+    color: #fff;
+    height: 300px !important;
+}
+
+#add-item-block-4 textarea {
+    width: 100%;
+}
+
+#add-item-block-4 #price {
+    width: 150px;
+    background: url('../img/euro.png') #fff no-repeat right;
+}
+
+#add-item-block-5 {
+    background-color: #fbb3b4;
+}
+
+#add-item-block-5 img {
+    height: 130px;
+}
+
+#add-item-block-5 button {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: solid 2px #be2834;
+}
+
+#add-item-block-4.info-block h2, #add-item-block-5.info-block h2, #add-item-block-4.info-block label {
+    color: #fff;
+}
